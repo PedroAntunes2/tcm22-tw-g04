@@ -1,0 +1,135 @@
+@font-face {
+    font-family: Qatar2022;
+    src: url(assets/fontes/Qatar2022/Qatar2022Arabic-Heavy.ttf);
+}
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    background-image: url("fundo.png");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 1px solid rgb(255, 255, 255);
+    padding: 20px;
+}
+
+h1 {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-family: Qatar2022;
+}
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.trofeu {
+    border: 1px solid black;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 80%;
+    height: 80%;
+}
+
+image {
+    border-color: rgb(107, 14, 53);
+    border-width: 15px;
+    border-style: solid;
+    width: 791x;
+    height: 491px;
+}
+
+.navbar {
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+    border-radius: .3rem;
+    display: flex;
+    justify-content: space-between;
+    font-family: Qatar2022;
+}
+
+.navbar div a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Altera a cor do item de menu quando o cursor estiver sobre ele */
+.navbar div a:hover {
+    background-color: #111;
+}
+dt {
+    color: rgb(255, 255, 255);
+}
+dd {
+    color: rgb(255, 255, 255);
+}
+p {
+    font-family: Arial;
+    font-size: 20px;
+}
+ul,
+li {
+    color: rgb(0, 0, 0);
+    font-family: Arial;
+}
+
+.tabela2 th {
+    border-collapse: collapse;
+    border-style: solid;
+    background-color: rgb(146, 9, 9);
+    border-color: rgb(0, 0, 0);
+    border-width: thin;
+}
+.tabela2 td {
+    border-collapse: collapse;
+    border-style: solid;
+    background-color: rgb(255, 255, 255);
+    border-color: rgb(0, 0, 0);
+    border-width: thin;
+}
+
+figure {
+    position: absolute;
+    padding: 95px;
+    bottom: 0;
+    right: 0;
+    height: 50%;
+}
+figcaption {
+    font-style: italic;
+    position: relative;
+    text-align: center;
+}
+
+.tabela {
+    border-collapse: collapse;
+    border: none;
+    border-radius: .3rem;
+    overflow: hidden;
+}
+
+.tabela th {
+    background-color: #333333;
+    color: white;
+}
+
+.tabela td {
+    background-color: white;
+}
+
+.tabela th, td {
+    padding: 0.5rem;
+}
+
+.tabela a {
+    text-decoration: none;
+}
