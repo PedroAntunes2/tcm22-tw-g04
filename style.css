@@ -34,7 +34,9 @@ p {
     width: 80%;
     height: 80%;
 }
-
+.navbar div {
+    display: inline-block;
+}
 image {
     border-color: rgb(107, 14, 53);
     border-width: 15px;
