@@ -25,15 +25,6 @@ p {
     font-size: 20px;
 }
 
-.trofeu {
-    border: 1px solid black;
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    width: 80%;
-    height: 80%;
-}
-
 image {
     border-color: rgb(107, 14, 53);
     border-width: 15px;
@@ -44,13 +35,14 @@ image {
 
 .navbar {
     margin: 0;
-    padding: 0;
+    padding: 5px;
     background-color: #333;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
     border-radius: .3rem;
     display: flex;
     justify-content: space-between;
     font-family: Qatar2022;
+    text-align: center;
 }
 
 .divisao {
@@ -72,8 +64,12 @@ section p {
     display: block;
     color: white;
     text-align: center;
-    padding: 14px 16px;
+    height: 2vw;
+    font-size: large;
+    padding: 15px 16px;
     text-decoration: none;
+    width: 10vw
+    
 }
 
 /* Altera a cor do item de menu quando o cursor estiver sobre ele */
@@ -94,6 +90,8 @@ ul,
 li {
     color: rgb(0, 0, 0);
     font-family: Arial;
+    margin: 0;
+    padding: 0
 }
 
 .tabela2 th {
@@ -155,9 +153,8 @@ footer{
     right: 0;
     background: grey;
     height: auto;
-    width: 1920px;
-    padding-top: 10px;
-    padding-bottom: 20px;
+    padding-top: 0.2px;
+    padding-bottom: 0.2px;
     color: #fff;
 }
 .footer-content{
@@ -175,7 +172,7 @@ footer{
 }
 .footer-content p{
     max-width: 500px;
-    margin: 10px auto;
+    margin: 10px;
     line-height: 10px;
     font-size: 14px;
     color: #cacdd2;
@@ -183,4 +180,21 @@ footer{
 
 .esconder {
     font-size: 1px;
+}
+
+.videoprincipal {
+    display: flex;
+    justify-content: center;
+}
+
+.logotipo {
+    margin:auto 30px;
+    float: left;
+    
+}
+
+.h2 { 
+    color: #333;
+    text-align: center;
+    font-family: Qatar2022;
 }
