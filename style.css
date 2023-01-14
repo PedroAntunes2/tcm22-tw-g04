@@ -14,6 +14,13 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
 }
+header {
+    background-color: rgb(22, 22, 22);
+    padding: 10px;
+    overflow: hidden;
+    border-radius: .3rem;
+    height: 5rem;
+}
 
 h1 {
     color: rgb(255, 255, 255);
