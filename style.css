@@ -344,6 +344,11 @@ header {
     border-radius: .3rem;
     height: 5rem;
 }
+
+.form {
+    color: black;
+}
+
 @media all and (max-width: 500px) {
     h1 {
         color: black;
