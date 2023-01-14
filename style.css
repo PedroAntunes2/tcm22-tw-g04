@@ -14,13 +14,6 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
 }
-header {
-    background-color: rgb(22, 22, 22);
-    padding: 10px;
-    overflow: hidden;
-    border-radius: .3rem;
-    height: 5rem;
-}
 
 h1 {
     color: rgb(255, 255, 255);
@@ -95,11 +88,6 @@ section p {
     border-radius: 0.3rem;
 }
 
-/* Altera a cor do item de menu quando o cursor estiver sobre ele */
-p {
-    font-size: 20px;
-}
-
 dl {
     padding: 1rem;
     background-color: #333333;
@@ -125,18 +113,6 @@ li {
     border-width: thin;
 }
 
-figure {
-    position: absolute;
-    padding: 95px;
-    bottom: 0;
-    right: 0;
-    height: 50%;
-}
-figcaption {
-    font-style: italic;
-    position: relative;
-    text-align: center;
-}
 
 .tabela {
     border-collapse: collapse;
@@ -169,7 +145,7 @@ footer{
     bottom: 0;
     left: 0;
     right: 0;
-    background: grey;
+    background:#333;
     height: auto;
     padding-top: 0.2px;
     padding-bottom: 0.2px;
@@ -308,4 +284,55 @@ ul{
 
 #listaWrapper{
     min-height: 550px;
+}
+
+.tabelawinners {
+    border-collapse: collapse;
+    border: none;
+    border-radius: .3rem;
+    overflow: hidden;
+    width: 150px;
+    
+}
+
+.tabelawinners th {
+    background-color: #333333;
+}
+
+.tabelawinners td {
+    background-color: white;
+    color: black;
+}
+
+.tabelawinners th, td {
+    padding: 0.5rem;
+}
+
+.tabelawinners a {
+    text-decoration: none;
+}
+
+figure {
+    text-align: center;
+}
+figcaption {
+    color: white;
+    font-style: italic;
+    padding: 2px;
+    margin-top: 0.5em;
+  }
+
+#sectionwinnerssemtabela {
+    display: flex;
+    flex-direction: column;
+}
+
+article {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+section article {
+    padding: 0.5rem 1rem;
+    border-radius: 0.3rem;
 }
