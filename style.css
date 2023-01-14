@@ -198,10 +198,19 @@ footer{
     justify-content: center;
 }
 
-.h2 { 
-    color: #333;
+h2 { 
+    color: rgb(255, 255, 255);
     text-align: center;
     font-family: Qatar2022;
+   
+}
+h3 { 
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-family: Qatar2022;
+    font-size: 150%;
+    
+
 }
 
 #tabeladiv {
