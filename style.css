@@ -348,7 +348,9 @@ header {
 .form {
     color: black;
 }
-
+#centrarlista {
+    text-align: center;
+}
 @media all and (max-width: 500px) {
     h1 {
         color: black;
