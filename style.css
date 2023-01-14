@@ -99,12 +99,8 @@ dl {
     border-radius: .3rem;
 }
 
-ul,
 li {
-    color: rgb(0, 0, 0);
-    font-family: Arial;
-    margin: 0;
-    padding: 0
+ list-style-type: none;
 }
 
 .tabela2 th {
@@ -140,6 +136,8 @@ figcaption {
     border: none;
     border-radius: .3rem;
     overflow: hidden;
+    height: 150px;
+    width: 150px;
 }
 
 .tabela th {
@@ -206,3 +204,92 @@ footer{
     font-family: Qatar2022;
 }
 
+#tabeladiv {
+    display: flex;
+    gap: 1.5em;
+    justify-content: center;
+}
+
+#historydiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 80vw;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#listadrop {
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+}
+
+.continente{
+    background-color: #333333;
+    display: flex;
+    width: 300px;
+    align-items: center;
+    border-top-left-radius: 0.3rem;
+    border-top-right-radius: 0.3rem;
+}
+
+.continente i{
+    margin-left: auto;
+    margin-right: 15px;
+}
+
+.continente h2 {
+    margin-left: 15px;
+}
+
+.paises {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    justify-content: center;
+    border-bottom-left-radius: 0.3rem;
+    border-bottom-right-radius: 0.3rem;
+    animation: dropDown 300ms ease-in-out forwards;
+    transform-origin: top center;
+}
+
+.paises li{
+    color:black;
+    padding: 0.5rem;
+}
+
+ul{
+    padding-inline-start: 0;
+}
+
+.hide {
+    display: none;
+}
+
+/* Drop down animation */
+@keyframes dropDown {
+    0% {
+        transform: scaleY(0)
+    }
+    80% {
+        transform: scaleY(1.1)
+    }
+    100% {
+        transform: scaleY(1)
+    }
+}
+
+#equipasWrapper{
+    display: flex;
+    flex-direction: column;
+}
+
+#fase-grupos{
+    margin-top: auto;
+}
+
+#listaWrapper{
+    min-height: 550px;
+}
