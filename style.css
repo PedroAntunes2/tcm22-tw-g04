@@ -176,27 +176,30 @@ footer{
     font-size: 1px;
 }
 
-.videoprincipal {
+.videoprincipaldiv {
     display: flex;
     justify-content: center;
 }
+.videoprincipal {
+    width: 50%;
+    height: 50%;
+}
 
+h1,h2,h3,h4,h5,h5 {
+    font-size: 150%;
+}
 h2 { 
     color: rgb(255, 255, 255);
     text-align: center;
     font-family: Qatar2022;
-   
 }
 h3 { 
     color: rgb(255, 255, 255);
     text-align: center;
     font-family: Qatar2022;
-    font-size: 150%;
-    
-
 }
 
-#tabeladiv {
+.tabeladiv {
     display: flex;
     gap: 1.5em;
     justify-content: center;
@@ -278,7 +281,7 @@ ul{
     flex-direction: column;
 }
 
-#fase-grupos{
+.fase-grupos{
     margin-top: auto;
 }
 
@@ -348,9 +351,38 @@ header {
 .form {
     color: black;
 }
-#centrarlista {
-    text-align: center;
+
+#formulario {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
+
+#mapa {
+    width:100%;
+    height:200px;
+    border:0;
+}
+
+.imagens40 {
+    width: 40%;
+    height: 40%;
+}
+
+h2#topo {
+	background-image: url(grande.png);
+    background-repeat: no-repeat;
+    background-size: 27%;
+    background-position: center;
+    margin-top: 2em;
+}
+h2#topo span { display: none;}
+h2#topo img {
+	width: 0px;
+	height: 0px;
+}
+
 @media all and (max-width: 500px) {
     h1 {
         color: black;

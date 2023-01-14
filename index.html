@@ -1,9 +1,10 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-PT">
     <head>
+        <meta charset="UTF-8">
         <title>FIFA World Cup</title>
-         <link rel="shorcut icon" type="icon" href="assets/icon.png">
-        <link rel="stylesheet" type="text/css" href="style.css" />
+        <link rel="icon" href="assets/icon.png">
+        <link rel="stylesheet" type="text/css" href="style.css">
     </head>
     <body>
         <header>
@@ -12,7 +13,7 @@
         <nav class="navbar">
             <div class="logotipo">
                 <a href="index.html">
-                    <img src="assets/logo.png" alt="logo" />
+                    <img src="assets/logo.png" alt="logo">
                 </a>
             </div>
             <div>
@@ -26,12 +27,12 @@
             Bem-vindo ao website sobre o Mundial de 2022, aqui poderas encontrar
             sobre o Mundial que ocorreu no Qatar!.
         </h1>
-        <div class="videoprincipal">
-            <video controls>
+        <div class="videoprincipaldiv">
+            <video class="videoprincipal" controls onloadstart="this.volume=0.05"> 
                 <source
                     src="assets/VídeoQatar.mp4"
                     type="video/mp4"
-                />
+                >
             </video>
         </div>
         <h2>
@@ -41,15 +42,12 @@
                 A decisão de realizar o torneio no Qatar foi tomada pela FIFA em
                 dezembro de 2010, após uma votação. O país está investiu
                 milhares de milhões de euros para construir estádios e
-                infraestruturas para a competição.<br />
+                infraestruturas para a competição.<br>
                 Este site vai resumir os acontecimentos desta edição do mundial
                 e contar um pouco da historia da competição.
         </h2>
         <div>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d923086.3367773638!2d50.657308218382205!3d25.344290044604964!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e45c534ffdce87f%3A0x1cfa88cf812b4032!2sQatar!5e0!3m2!1sen!2spt!4v1673618959721!5m2!1sen!2spt"
-                width="100%"
-                height="200"
-                style="border: 0"
+            <iframe id="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d923086.3367773638!2d50.657308218382205!3d25.344290044604964!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e45c534ffdce87f%3A0x1cfa88cf812b4032!2sQatar!5e0!3m2!1sen!2spt!4v1673618959721!5m2!1sen!2spt"
                 allowfullscreen=""
                 referrerpolicy="no-referrer-when-downgrade"
                 >
@@ -69,18 +67,17 @@
                         <td>general@vqatar.qa</td>
                         <td>athoffice@gr.qatarairways.com</td>
                     </tr>
-                    <tr span class="esconder">
+                    <tr class="esconder">
                         <td>.</td>
                         <td>.</td>
                         <td>.</td>
-                    </tr>
-                        <label for="email">Insira o seu e-mail para receber mais informações</label>
-                    </p>
-                        <input class="form" type="email" id="email" name="email">
-                    </p>
-                        <input class="form" type="submit" value="Submit">
                     </tr>
                 </table>
+                    <form id="formulario">
+                    <label for="email">Insira o seu e-mail para receber mais informações</label>
+                        <input class="form" type="email" id="email" name="email">
+                        <button class="form" type="submit">Submit</button>
+                    </form>
             </div>
         </footer>
     </body>
