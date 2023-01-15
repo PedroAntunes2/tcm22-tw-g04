@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mundial>
+  <ano>2022</ano>
+  <continente>Ásia</continente>
+  <pais>Qatar</pais>
+  <estadios>
+    <estadio>Estadio Lusail Iconic</estadio>
+    <estadio>Estadio Al Janoub</estadio>
+    <estadio>Estadio Khalifa International</estadio>
+    <estadio>Estadio Education City</estadio>
+    <estadio>Estadio Al Thumama</estadio>
+    <estadio>Estadio 974</estadio>
+    <estadio>Estadio Al Bayt</estadio>
+    <estadio>Estadio Ahmad bin Ali</estadio>
+  </estadios>
+  <equipa>
+    <equipa>Qatar</equipa>
+    <equipa>Ecuador</equipa>
+    <equipa>Senegal</equipa>
+    <equipa>Holanda</equipa>
+    <equipa>Inglaterra</equipa>
+    <equipa>Irão</equipa>
+    <equipa>Estados Unidos Da América</equipa>
+    <equipa>País de Gales</equipa>
+    <equipa>Argentina</equipa>
+    <equipa>Arábia Saudita</equipa>
+    <equipa>México</equipa>
+    <equipa>Polónia</equipa>
+    <equipa>França</equipa>
+    <equipa>Austrália</equipa>
+    <equipa>Dinamarca</equipa>
+    <equipa>Tunisia</equipa>
+    <equipa>Espanha</equipa>
+    <equipa>Costa Rica</equipa>
+    <equipa>Alemanha</equipa>
+    <equipa>Japão</equipa>
+    <equipa>Bélgica</equipa>
+    <equipa>Canadá</equipa>
+    <equipa>Marrocos</equipa>
+    <equipa>Croácia</equipa>
+    <equipa>Brasil</equipa>
+    <equipa>Sérvia</equipa>
+    <equipa>Suiça</equipa>
+    <equipa>Camarões</equipa>
+    <equipa>Portugal</equipa>
+    <equipa>Gana</equipa>
+    <equipa>Uruguai</equipa>
+    <equipa>Coreira do Sul</equipa>
+  </equipa>
+  <vencedor>Argetina</vencedor>
+  <melhorjogador>Lionel Messi</melhorjogador>
+  <melhorguardaredes>Emiliano Martínez</melhorguardaredes>
+</mundial>
