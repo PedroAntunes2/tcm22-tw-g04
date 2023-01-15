@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="mundial">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="ano" type="xs:unsignedShort" />
+        <xs:element name="continente" type="xs:string" />
+        <xs:element name="pais" type="xs:string" />
+        <xs:element name="estadios">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element maxOccurs="unbounded" name="estadio" type="xs:string" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="equipa">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element maxOccurs="unbounded" name="equipa" type="xs:string" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="vencedor" type="xs:string" />
+        <xs:element name="melhorjogador" type="xs:string" />
+        <xs:element name="melhorguardaredes" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
