@@ -377,12 +377,18 @@ h2#topo {
     background-position: center;
     margin-top: 2em;
 }
-h2#topo span { display: none;}
+h2#topo span { 
+    display: none;
+}
+
 h2#topo img {
 	width: 0px;
 	height: 0px;
 }
 
+#email {
+    margin: 0.5em;
+}
 @media all and (max-width: 500px) {
     h1 {
         color: black;
