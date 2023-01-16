@@ -431,6 +431,13 @@ a:link {
     margin-top: 0.5em;
   }
 
+figcaption::first-line {
+    color: rgb(198, 198, 202);
+}
+::selection {
+    background-color: #333333;
+}
+
 @media all and (max-width: 500px) {
     h1 {
         color: black;
