@@ -145,7 +145,12 @@ footer{
     bottom: 0;
     left: 0;
     right: 0;
-    background:#333;
+    background: url(footerv3.jpg);
+    background-position: left;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
     height: auto;
     padding-top: 0.2px;
     padding-bottom: 0.2px;
@@ -341,11 +346,16 @@ section article {
 }
 
 header {
-    background-color: #111;
     padding: 10px;
     overflow: hidden;
     border-radius: .3rem;
     height: 5rem;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
+    background-image: url(bannerv4.png) ;
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
 }
 
 .form {
@@ -357,6 +367,7 @@ header {
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    padding-bottom: 0.5rem;
 }
 
 #mapa {
@@ -389,6 +400,37 @@ h2#topo img {
 #email {
     margin: 0.5em;
 }
+
+header {
+    font-size: 150%;
+}
+
+a:link {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  a:visited {
+    color: pink;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  a:hover {
+    color: palevioletred;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  a:active {
+    color: plum;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+
+  button {
+    margin-bottom: 1em;
+    margin-top: 0.5em;
+  }
+
 @media all and (max-width: 500px) {
     h1 {
         color: black;
