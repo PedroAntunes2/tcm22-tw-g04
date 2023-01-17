@@ -23,6 +23,10 @@ Além de fornecer informações sobre o Mundial, o nosso site também inclui inf
 
 * [Powerpoint](https://github.com/PedroAntunes2/tcm22-tw-g04/blob/ed7b71b5fff8b7aa856a1a4a4b55bde7ae5b8610/apresenta%C3%A7%C3%A3o/tcm22-tw-g04-powerpoint.pptx)
 
+## link para o website
+
+* [website](https://tcm22-tw-g04.netlify.app)
+
 ## Grupo 04
 
 * André Guimarães 40091
