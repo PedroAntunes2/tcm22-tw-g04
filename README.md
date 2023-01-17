@@ -11,7 +11,7 @@ Além de fornecer informações sobre o Mundial, o nosso site também inclui inf
 * Páginas [HTML](https://github.com/PedroAntunes2/tcm22-tw-g04/blob/main/index.html)
 * Página [CSS](https://github.com/PedroAntunes2/tcm22-tw-g04/blob/main/style.css)
 * Pagina [JS](https://github.com/PedroAntunes2/tcm22-tw-g04/blob/main/index.js)
-* Pagina [XML](https://github.com/PedroAntunes2/tcm22-tw-g04/blob/main/mundialxml.xml)
+* Pagina [XML](https://github.com/PedroAntunes2/tcm22-tw-g04/blob/7bd6b11af2c0514ba150dfe7615004d90ed58e0a/xml/mundialxml.xml)
 
 ## Linguagens aplicadas
 
