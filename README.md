@@ -21,7 +21,7 @@ Além de fornecer informações sobre o Mundial, o nosso site também inclui inf
 
 ## Apresentação
 
-* [Powerpoint](https://github.com/PedroAntunes2/tcm22-tw-g04/blob/ed7b71b5fff8b7aa856a1a4a4b55bde7ae5b8610/apresenta%C3%A7%C3%A3o/tcm22-tw-g04-powerpoint.pptx)
+* [Powerpoint](https://github.com/PedroAntunes2/tcm22-tw-g04/blob/main/Apresenta%C3%A7%C3%A3o/tcm22-tw-g04-powerpoint.pptx)
 
 ## link para o website
 
