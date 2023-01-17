@@ -8,7 +8,7 @@
     color: white;
 }
 body {
-    background-image: url("fundo.png");
+    background-image: url("assets/fundo.png");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -145,7 +145,7 @@ footer{
     bottom: 0;
     left: 0;
     right: 0;
-    background: url(footerv3.jpg);
+    background: url(assets/footerv3.jpg);
     background-position: left;
     background-size: 100%;
     background-repeat: no-repeat;
@@ -352,7 +352,7 @@ header {
     height: 5rem;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
     text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
-    background-image: url(bannerv4.png) ;
+    background-image: url(assets/bannerv4.png) ;
     background-position: center;
     background-size: 100%;
     background-repeat: no-repeat;
@@ -382,7 +382,7 @@ header {
 }
 
 h2#topo {
-	background-image: url(grande.png);
+	background-image: url(assets/grande.png);
     background-repeat: no-repeat;
     background-size: 27%;
     background-position: center;
